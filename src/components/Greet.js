@@ -4,7 +4,7 @@ export class Greet extends Component {
     render() {
         return (
             <div>
-                Hello World
+                {this.props.msg}
             </div>
         )
     }
