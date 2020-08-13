@@ -1,13 +1,9 @@
-import React, { Component } from 'react'
+import React from "react";
+// Functional Component
+// function Greet() {
+//   return <h1>Hello DG!</h1>;
+// }
 
-export class Greet extends Component {
-    render() {
-        return (
-            <div>
-                {this.props.msg}
-            </div>
-        )
-    }
-}
+const Greet = () => <h1>Hello DG!!</h1>;
 
-export default Greet
+export default Greet;
